@@ -1,0 +1,56 @@
+<header>
+        <h1>SIMPUS-Mini</h1>
+        <!-- Menambahkan tombol hamburger -->
+        <button type="button" id="nav-toggle-btn" class="nav-toggle-label" aria-label="Menu">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../buku/list.html">Daftar Buku</a></li>
+                <li><a href="list.html">Daftar Anggota</a></li>
+                <li><a href="tambah.html">Tambah Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Daftar Anggota</h2>
+            <!-- Tambahkan Kotak Pencarian Real-Time -->
+            <div style="margin-bottom: 15px;">
+                <label for="search-input">Cari Anggota: </label>
+                <input type="text" id="search-input" placeholder="Ketik kata kunci...">
+            </div>
+            <table border="1">
+                <thead>
+                    <!-- ... bagian header tabel tetap sama ... -->
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A001</td>
+                        <td>Siti Aminah</td>
+                        <td>Malang</td>
+                        <td>0812xxxx</td>
+                        <td>v</td>
+                        <td></td>
+                        <td><button type="button">Edit</button></td>
+                        <td>
+                            <!-- Tambahkan class="btn-hapus" di sini -->
+                            <button type="button" class="btn-hapus">Hapus</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A002</td>
+                        <td>Budi Santoso</td>
+                        <td>Batu</td>
+                        <td>0813xxxx</td>
+                        <td></td>
+                        <td>v</td>
+                        <td><button type="button">Edit</button></td>
+                        <td>
+                            <!-- Tambahkan class="btn-hapus" di sini -->
+                            <button type="button" class="btn-hapus">Hapus</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
