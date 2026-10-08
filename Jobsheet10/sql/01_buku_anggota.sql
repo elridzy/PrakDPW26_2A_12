@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS buku (
+    id SERIAL PRIMARY KEY,
+    judul VARCHAR(255) NOT NULL,
+    pengarang VARCHAR(255) NOT NULL,
+    tahun INT NOT NULL,
+    stok INT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS anggota (
+    id SERIAL PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    no_anggota VARCHAR(50) NOT NULL,
+    alamat TEXT NOT NULL,
+    no_hp VARCHAR(20) NOT NULL
+);
